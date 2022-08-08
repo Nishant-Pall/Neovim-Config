@@ -7,35 +7,19 @@ endif
 call plug#begin('~/.config/nvim')
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-"Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
-"Plug 'sheerun/vim-polyglot'
-"Plug 'HerringtonDarkholme/yats.vim'
-"Plug 'jremmen/vim-ripgrep'
-"Plug 'ianks/vim-tsx'
-"Plug 'leafOfTree/vim-matchtag'
 Plug 'honza/vim-snippets'
 Plug 'SirVer/ultisnips'
-"Plug 'maxmellon/vim-jsx-pretty'
-"Plug 'mlaursen/vim-react-snippets'
 Plug 'APZelos/blamer.nvim'
-"Plug 'alvan/vim-closetag'
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
-"Plug 'peitalin/vim-jsx-typescript'
-"Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
-"Plug 'jparise/vim-graphql'
 Plug 'vim-airline/vim-airline'
-"Plug 'vim-utils/vim-man'
 Plug 'tpope/vim-eunuch'
-"Plug 'AndrewRadev/tagalong.vim'
 Plug 'preservim/nerdtree'
 Plug 'romgrk/barbar.nvim'
 Plug 'Chiel92/vim-autoformat'
-"Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-surround'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-"Plug 'jackguo380/vim-lsp-cxx-highlight'
 Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/nerdcommenter'
 Plug 'nvim-lua/plenary.nvim'
@@ -43,7 +27,6 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'stsewd/fzf-checkout.vim'
-"Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
 Plug 'tpope/vim-rhubarb'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/gv.vim'
@@ -54,13 +37,24 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'lyuts/vim-rtags'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'frazrepo/vim-rainbow'
-"Plug 'git@github.com:kien/ctrlp.vim.git'
-"Plug 'git@github.com:Valloric/YouCompleteMe.git'
+Plug 'vim-syntastic/syntastic'
 Plug 'mbbill/undotree'
 Plug 'ctrlpvim/ctrlp.vim'
+"Plug 'maxmellon/vim-jsx-pretty'
+"Plug 'mlaursen/vim-react-snippets'
+"Plug 'alvan/vim-closetag'
+"Plug 'peitalin/vim-jsx-typescript'
+"Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+"Plug 'jparise/vim-graphql'
+"Plug 'vim-utils/vim-man'
+"Plug 'AndrewRadev/tagalong.vim'
+"Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+"Plug 'jackguo380/vim-lsp-cxx-highlight'
+"Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
+"Plug 'git@github.com:kien/ctrlp.vim.git'
+"Plug 'git@github.com:Valloric/YouCompleteMe.git'
 "Plug 'antoinemadec/coc-fzf'
 "Plug 'jupyter-vim/jupyter-vim'
-Plug 'vim-syntastic/syntastic'
 "Plug 'neovim/nvim-lspconfig'
 "Plug 'autozimu/LanguageClient-neovim', {
 "Plug 'rhysd/vim-clang-format'
@@ -74,6 +68,12 @@ Plug 'vim-syntastic/syntastic'
 "Plug 'lighttiger2505/deoplete-vim-lsp'
 "Plug 'christoomey/vim-tmux-navigator'
 "Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
+"Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+"Plug 'sheerun/vim-polyglot'
+"Plug 'HerringtonDarkholme/yats.vim'
+"Plug 'jremmen/vim-ripgrep'
+"Plug 'ianks/vim-tsx'
+"Plug 'leafOfTree/vim-matchtag'
 
 call plug#end()
 
